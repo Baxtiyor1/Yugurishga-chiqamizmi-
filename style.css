@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+h1{
+    height: 30px;
+    margin: 10px 0;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+.list{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+}
+#input{
+    padding: 5px 10px;
+    margin-left: 10px;
+    height: 25px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    outline: none;
+}
+#zal{
+    margin-top: 10px;
+}
