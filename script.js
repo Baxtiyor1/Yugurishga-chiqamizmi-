@@ -27,7 +27,7 @@ elRain.addEventListener('click', function(){
 })
 
 elzal.addEventListener('click', function(){
-    if(elRain.checked && elzal.checked){
+    if(elRain.checked && elzal.checked && (elInput.value > 5 && elInput.value < 30)){
         elTitle.textContent = 'HA'
     }else{
         if(elzal.checked){
